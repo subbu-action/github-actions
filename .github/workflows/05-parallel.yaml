@@ -13,7 +13,7 @@ jobs:
     - name: step2 
       run: echo "I am from job-2" 
   job-3: 
-    runs-on: 
+    runs-on: ubuntu-latest 
     steps: 
     - name: step3
-      run: echo "I am form job-3"        
+      run: echo "I am from job-3"        
