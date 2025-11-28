@@ -1,0 +1,9 @@
+name: subbu 
+
+on: [push] 
+jobs: 
+   subbu: 
+     runs-on: self-hosted 
+     steps: 
+     - name: print the name 
+       run: echo "hello subbu"
