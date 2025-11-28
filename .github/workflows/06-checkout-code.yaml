@@ -1,0 +1,12 @@
+name: Checkout code 
+
+on: [push] 
+jobs: 
+   build: # this dshould be unique 
+     runs-on: ubuntu-latest 
+     steps: #stages 
+     #checkout will happen here 
+     - name: checkout code 
+       uses: actions/checkout@v5 
+     - name: display the files 
+       run: ls -la   
